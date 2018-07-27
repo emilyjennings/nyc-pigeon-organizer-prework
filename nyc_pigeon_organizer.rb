@@ -22,6 +22,7 @@ pigeon_data = {
 def nyc_pigeon_organizer(data)
   pigeons = Hash.new
   data.each do |key, value|
+    key.to_s
     key.each do |key, value|
       pigeons << key[value[1]]
     end
