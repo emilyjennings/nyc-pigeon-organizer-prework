@@ -23,7 +23,7 @@ def nyc_pigeon_organizer(data)
   pigeons = Hash.new
   data.each do |key, value|
     key.each do |key, value|
-      key[value[1]]
+      pigeons << key[value[1]]
     end
   end
   pigeons
