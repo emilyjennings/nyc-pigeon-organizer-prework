@@ -24,9 +24,10 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     key.to_s
     key.each do |key, value|
+      binding.pry
       key.to_s
       pigeons << key[value[1]]
-      binding.pry
+
     end
   end
   pigeons
