@@ -21,7 +21,7 @@ def nyc_pigeon_organizer(data)
   pigeons = {}
   data.each do |key, value|
     if key == [:color][:purple]
-      Pigeons << key
+      pigeons << key
     end
   end
 end
