@@ -21,5 +21,6 @@ def nyc_pigeon_organizer(data)
   Pigeons = Hash.new
   data.each do |key, value|
     if key == [:color][:purple]
+      Pigeons << key
   end
 end
