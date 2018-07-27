@@ -29,7 +29,7 @@ def nyc_pigeon_organizer(data)
       pigeons << key[value[1]]
 
     end
-    binding.pry
+
   end
   pigeons
 end
