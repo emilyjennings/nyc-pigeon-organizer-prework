@@ -18,7 +18,7 @@ pigeon_data = {
 }
 
 def nyc_pigeon_organizer(data)
-  pigeons = {Hash.new}
+  pigeons = {}
   data.each do |key, value|
     if key == [:color][:purple]
       Pigeons << key
