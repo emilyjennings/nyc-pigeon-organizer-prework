@@ -18,7 +18,7 @@ pigeon_data = {
 }
 
 def nyc_pigeon_organizer(data)
-  pigeons = {}
+  pigeons = Hash.new
   data.each do |key, value|
     pigeons << key
   end
