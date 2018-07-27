@@ -24,4 +24,5 @@ def nyc_pigeon_organizer(data)
       pigeons << key
     end
   end
+  pigeons
 end
